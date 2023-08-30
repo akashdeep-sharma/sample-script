@@ -22,13 +22,6 @@ const session ={
     url:"development-pixelify.myshopify.com"
 
 }
-// axios(config)
-//   .then(function (response) {
-//     console.log(JSON.stringify(response.data));
-//   })
-//   .catch(function (error) {
-//     console.log('error agya');
-//   });
 
 //Update pixel
 const replacePixel = async (pixelId, session) => {
