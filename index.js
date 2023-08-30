@@ -22,8 +22,6 @@ const session ={
     url:"development-pixelify.myshopify.com"
 
 }
-
-//Update pixel
 const replacePixel = async (pixelId, session) => {
     const config={
         method: 'get',
