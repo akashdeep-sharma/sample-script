@@ -19,7 +19,6 @@ var config = {
 };
 const session ={
     url:"development-pixelify.myshopify.com"
-
 }
 const replacePixel = async (pixelId, session) => {
     const config={
