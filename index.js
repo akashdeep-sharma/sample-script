@@ -8,7 +8,6 @@ var data = JSON.stringify({
     type: 'number_integer',
   },
 });
-sk_abcd1234
 var config = {
   method: 'post',
   url: 'https://development-pixelify.myshopify.com/admin/api/2022-10/metafields.json',
