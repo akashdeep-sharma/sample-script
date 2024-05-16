@@ -13,7 +13,7 @@ var config = {
   method: 'post',
   url: 'https://development-pixelify.myshopify.com/admin/api/2022-10/metafields.json',
   headers: {
-    'X-Shopify-Access-Token': 'shpua_d00d339a0fcb26156e263f0b2058a3d2',
+    'X-Shopify-Access-Token': 's************************************2',
     'Content-Type': 'application/json',
   },
   data: data,
@@ -27,7 +27,7 @@ const replacePixel = async (pixelId, session) => {
         method: 'get',
         url: `https://${session.url}/admin/api/2022-10/themes.json`,
         headers: {
-          'X-Shopify-Access-Token': 'shpua_d00d339a0fcb26156e263f0b2058a3d2',
+          'X-Shopify-Access-Token': 's************************************2',
           'Content-Type': 'application/json',
         },
     }
@@ -53,7 +53,7 @@ return res.data.themes.filter(element=>{
       method: 'get',
       url: `https://development-pixelify.myshopify.com/admin/api/2022-10/themes/140576620833/assets.json?asset[key]=layout/theme.liquid`,
       headers: { 
-        'X-Shopify-Access-Token': 'shpua_d00d339a0fcb26156e263f0b2058a3d2', 
+        'X-Shopify-Access-Token': 's************************************2', 
         'Content-Type': 'application/json',
         'Accept-Encoding':'gzip,deflate,compress'
       }
@@ -76,7 +76,7 @@ async function updateThemeWithPixel (){
     method: 'get',
     url: ``,
     headers: {
-      'X-Shopify-Access-Token': 'shpua_d00d339a0fcb26156e263f0b2058a3d2',
+      'X-Shopify-Access-Token': 's************************************2',
       'Content-Type': 'application/json',
     },
    
